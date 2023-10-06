@@ -1,0 +1,31 @@
+/** @type {import('tailwindcss').Config} */
+module.exports = {
+  content: [
+    "./src/**/*.{js,jsx,ts,tsx}",
+    "./src/pages/**/*.{js,jsx,ts,tsx}",
+    "./src/components/**/*.{js,jsx,ts,tsx}",
+  ],
+  theme: {
+    extend: {
+      spacing: {
+        '30': '7.5rem',
+        '290px': '290px',
+        '396px': '396px',
+        '500px': '500px',
+        '980px': '980px'
+      },
+      fontSize: {
+        'subtitle': '1.7rem'
+      },
+      colors: {
+        'main-gray': '#F0F2F5',
+        'main-blue': '#1877F2',
+        'main-blue-hover': '#166FE5',
+        'main-green': '#42B72A',
+        'main-green-hover': '#36A420'
+      }
+    },
+  },
+  plugins: [],
+}
+
